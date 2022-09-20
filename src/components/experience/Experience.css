@@ -1,7 +1,7 @@
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .experience__container > div {
@@ -63,7 +63,8 @@
 /* Media Queries */
 /* mobile devices */
 @media screen and (max-width: 600px){
-    .experience__container{
+    .container.experience__container {
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
@@ -97,7 +98,7 @@
     }
 
     .experience__container > div {
-        width: 80%;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
     }

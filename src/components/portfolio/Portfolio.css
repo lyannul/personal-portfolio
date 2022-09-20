@@ -42,7 +42,7 @@
 
 /* mobile devices */
 @media screen and (max-width: 600px){
-    .portfolio__container {
+    .container.portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
