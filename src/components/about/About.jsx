@@ -30,7 +30,7 @@ const About = () => {
                     <article className='about__card'>
                         <BiFolder className='about__icon'/>
                         <h5>Hobbies</h5>
-                        <small>Travelling, Lacrosse, Basketball & Coding</small>
+                        <small>Traveling, Lacrosse, Basketball & Coding</small>
                     </article>
                 </div>
                 <p>
