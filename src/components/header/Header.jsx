@@ -1,8 +1,9 @@
 import React from 'react';
 import './Header.css';
 import Action from './Action';
-import ME from '../../assests/me.png';
 import Socials from './Socials';
+import animationData from '../../lotties/dev1.json';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 const Header = () => {
   return (
@@ -15,8 +16,13 @@ const Header = () => {
             
             <Socials/>
 
-            <div className="me">
-                <img src={ME} alt="A head-shot of Lucas" />
+           <div className='animation__container'>
+                <Player className='animation__item'
+                    autoplay
+                    loop
+                    src={animationData}
+                    >
+                </Player>
             </div>
 
             <a className='scroll__down' href="#contact">Scroll Down</a>

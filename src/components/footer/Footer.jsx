@@ -3,7 +3,20 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+        <a href="#" className='footer__logo'>LUCAS YANNUL</a>
+
+        <ul className="permalinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div className="footer__copyright">
+            <small>&copy; Lucas Yannul. All rights reserved.</small>
+        </div>
+    </footer>
   );
 }
 

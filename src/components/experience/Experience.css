@@ -1,0 +1,108 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    gap: 3rem;
+    align-content: center;
+}
+
+.experience__details:nth-child(even) {
+    border-color: var(--color-secondary-variant);
+}
+
+
+.experience__details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 2rem;
+    width: 7rem;
+    height: 7.5rem;
+}
+
+.experience__details-icon {
+    color: var(--color-primary);
+    font-size: 60px;
+}
+
+.experience__details-name > h4 {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+/* mobile devices */
+@media screen and (max-width: 600px){
+    .experience__container{
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .experience__details {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .experience__details-icon {
+        font-size: 50px;
+    }
+
+    .experience__details-name > h4{
+        font-size: 0.8rem;
+    }
+}
+
+/* medium sized devices */
+@media screen and (max-width: 1024px){
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        margin: 0 auto;
+    }
+}
