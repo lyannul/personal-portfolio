@@ -20,7 +20,7 @@ const About = () => {
                     <article className='about__card'>
                         <BiMedal className='about__icon'/>
                         <h5>Experience</h5>
-                        <small>2 Summer SWE Internhips</small>
+                        <small>2 Summer SWE Internships</small>
                     </article>
                     <article className='about__card'>
                         <BiUser className='about__icon'/>
@@ -37,8 +37,8 @@ const About = () => {
                     I am a senior Computer Engineering major and Computer Science 
                     minor at Villanova! I am currently pursuing a career as a Software
                     Engineer. I have a strong passion for both front-end
-                    and back-end development. I love to learn and always am trying 
-                    to experiment with new technologies!
+                    and back-end development. I love to learn and I am always looking to learn
+                    and experiment with new technologies!
                 </p>
 
                 <a href="#contact" className='btn btn-primary'>Let's Talk</a>

@@ -10,7 +10,7 @@ const projects = [
     title: 'JPMorgan Chase & Co.',
     position: 'Software Engineering Intern',
     date: 'Jun 2022 - Aug 2022',
-    description: 'Created a mobile app chatbot using React.js and Spring Boot to help business teams working with Ultra-High-Net-Worth clients in accessing asset and liability information on the go. Built the UI and custom quick chat functionality based on response data from the bot\'s converstaion API.'
+    description: 'Created a mobile app chatbot using React.js and Spring Boot to help business teams working with Ultra-High-Net-Worth clients in accessing asset and liability information on the go. Built the UI and custom quick chat functionality based on response data from the bot\’s conversation API.'
 },
 { 
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     title: 'ICANON Associates',
     position: 'Software Engineering Intern',
     date: 'Jun 2021 - Aug 2021',
-    description: 'Developed a plugin for the Thunderbird email client to allow support staff to log tickets to thier database based on email content and color code incomming emails based on ticket status. Also migrated the company\'s legacy application from a Swing version to a web-based verison using JavaScript, HTML, JSP\'s, CSS & jQuery.'
+    description: 'Developed a plugin for the Thunderbird email client to allow the support staff to log tickets to their database based on email content and color code incoming emails based on ticket status. Also migrated the company\'s legacy application from a Java-based Swing version to a web-based version using JavaScript, HTML, JSP\'s, CSS & jQuery.'
 },
 ];
 
