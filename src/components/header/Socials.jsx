@@ -1,11 +1,12 @@
 import React from 'react';
-import {BsLinkedin, BsGithub} from 'react-icons/bs';
+import {BsLinkedin, BsGithub ,BsFillFileCodeFill} from 'react-icons/bs';
 
 const Socials = () => {
   return (
     <div className='header__socials'>
-       <a href="https://www.linkedin.com/in/lucasyannul/" target='_blank'><BsLinkedin/></a>
-       <a href="https://github.com/lyannul" target='_blank'><BsGithub/></a>
+       <a href="https://www.linkedin.com/in/akashkumargolden/" target='_blank'><BsLinkedin/></a>
+       <a href="https://github.com/akashkumargolden" target='_blank'><BsGithub/></a>
+       <a href="https://leetcode.com/akashkumargolden1/" target='_blank'><BsFillFileCodeFill/></a>
     </div>
   );
 }

@@ -1,9 +1,8 @@
 import React from 'react';
 import "./Experience.css";
-import {FaReact, FaHtml5, FaGitAlt, FaJava} from 'react-icons/fa';
-import {SiJavascript, SiTypescript, SiCss3, SiSpringboot, SiCplusplus} from 'react-icons/si';
+import {FaReact, FaHtml5, FaGitAlt, FaNodeJs,FaDatabase} from 'react-icons/fa';
+import {SiJavascript, SiCss3,SiSvg, SiExpress, SiCplusplus , SiMongodb} from 'react-icons/si';
 import {MdHttp} from 'react-icons/md';
-import {TbBrandNextjs} from 'react-icons/tb';
 
 
 const Experience = () => {
@@ -28,12 +27,12 @@ const Experience = () => {
                             <h4>JavaScript</h4>
                         </div>
                     </article>
-                    <article className='experience__details'>
+                    {/* <article className='experience__details'>
                         <SiTypescript className='experience__details-icon'/>
                         <div className='experience__details-name'>
                             <h4>TypeScript</h4>
                         </div>
-                    </article>
+                    </article> */}
                     <article className='experience__details'>
                         <FaHtml5 className='experience__details-icon'/>
                         <div className='experience__details-name'>
@@ -52,6 +51,12 @@ const Experience = () => {
                             <h4>Git</h4>
                         </div>
                     </article>
+                    <article className='experience__details'>
+                        <SiSvg className='experience__details-icon'/>
+                        <div className='experience__details-name'>
+                            <h4>SVG</h4>
+                        </div>
+                    </article>
                 </div>
             </div>
 
@@ -59,21 +64,21 @@ const Experience = () => {
             <h3>Back End</h3>
                 <div className="experience__content">
                     <article className='experience__details'>
-                        <FaJava className='experience__details-icon'/>
+                        <FaNodeJs className='experience__details-icon'/>
                         <div className='experience__details-name'>
-                            <h4>Java</h4>
+                            <h4>NodeJS</h4>
                         </div>
                     </article>
                     <article className='experience__details'>
-                        <SiSpringboot className='experience__details-icon'/>
+                        <SiExpress className='experience__details-icon'/>
                         <div className='experience__details-name'>
-                            <h4>Spring Boot</h4>
+                            <h4>ExpressJS</h4>
                         </div>
                     </article>
                     <article className='experience__details'>
-                        <TbBrandNextjs className='experience__details-icon'/>
+                        <SiMongodb className='experience__details-icon'/>
                         <div className='experience__details-name'>
-                            <h4>Next.js</h4>
+                            <h4>Mongodb</h4>
                         </div>
                     </article>
                     <article className='experience__details'>
@@ -83,11 +88,18 @@ const Experience = () => {
                         </div>
                     </article>
                     <article className='experience__details'>
+                        <FaDatabase className='experience__details-icon'/>
+                        <div className='experience__details-name'>
+                            <h4>sql</h4>
+                        </div>
+                    </article>   
+                    <article className='experience__details'>
                         <SiCplusplus className='experience__details-icon'/>
                         <div className='experience__details-name'>
-                            <h4>C / C++</h4>
+                            <h4>C++</h4>
+                                 
                         </div>
-                    </article>            
+                    </article>
                 </div>
             </div>
         </div>
